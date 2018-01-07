@@ -3,7 +3,7 @@ var SHA256 = require("crypto-js/sha256");
 /**
  * Each block ll have index, timestamp, data, previousHash
  * Index - where block sits on the chain.
- * Timestamo - when the block was created.
+ * Timestamp - when the block was created.
  * Data - whatever data you want to store in the block. Amount =10
  * previoushash contains the string of hash of previous block
  * @class Block
